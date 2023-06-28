@@ -29,7 +29,7 @@ int main()
 
     int value = i;
 
-    while (count1 <= num)
+    while (count1 <= value)
     {
         if ((num%count) == 0)
         {
@@ -41,10 +41,11 @@ int main()
         {
             ++count;
         }
-        for (count = 0; count <= i; ++count)
-        {
-            printf("%d, ", ii[count]);
-        }
+    }
+
+    for (count = 0; count <= i; ++count)
+    {
+        printf("%d, ", ii[count]);
     }
 
 
