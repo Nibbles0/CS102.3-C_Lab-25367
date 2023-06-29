@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num1, total, count = 0;
+    int num1, total, count;
 
     printf("Enter a numerical value to find the factorial of: ");
     scanf("%d", &num1);
