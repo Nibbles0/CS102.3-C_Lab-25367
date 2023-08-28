@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int num, evenc = 0, oddc = 0, result, count = 1;
+
+    do
+    {
+    printf("enter a numerical value: ");
+    scanf("%d", &num);
+
+    result = num % 2;
+
+    if (result == 0)
+    {
+        ++evenc;
+    }
+    else
+    {
+        
+        ++oddc;
+    }
+    ++count;
+    } while (count <= 10);
+    printf("%d is even, %d is odd.", evenc, oddc);
+   
+    // Part 2
+
+    int num, evenc = 0, oddc = 0, result;
+
+    do
+    {
+    printf("enter a numerical value: ");
+    scanf("%d", &num);
+
+    result = num % 2;
+
+    if (result == 0)
+    {
+        ++evenc;
+    }
+    else
+    {
+        
+        ++oddc;
+    }
+    } while (num != -99);
+    printf("%d is even, %d is odd.", evenc, oddc);
+
+
+
+
+
+
+
+    return 0;
+}
